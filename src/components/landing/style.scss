@@ -1,0 +1,138 @@
+.logo{
+   width:80px; 
+}
+.customer{
+   margin-top: -1vw;
+   z-index: 2;
+   li{
+      margin-bottom: 5vw;
+      .card{
+         border-radius: 10px;
+         box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+         .customer-img{
+           width: 60px;
+           height: 60px;
+         }
+      }
+      &:nth-child(1){
+         
+         .card{
+            background-color:#F1FDFF;
+            margin-right: 10vw;
+            span{
+               color: #60CECE;
+            }
+            .customer-img{
+               left:20px;
+               top:-45px;
+            }
+         }
+      }
+      &:nth-child(2){
+         .card{
+            background-color: #FDE9B8;
+            margin-left: 10vw;
+            span{
+               color: #A58129;
+            }
+            .customer-img{
+               right:20px;
+               top:-35px;
+            }
+         }
+         
+      }
+      &:nth-child(3){
+         .card{
+            background-color: #FAE7E0;
+            margin-right: 10vw;
+            span{
+               color: #C05A6F;
+            }
+            .customer-img{
+               left:20px;
+               top:-35px;
+            }
+         }
+        
+      }
+   }
+}
+.title{
+   font-family: 'DM Serif Display', serif;
+   font-size: 3.8vw;
+   color: #2C3659;
+}
+.sub-title{
+   font-size: 2.4vw;
+   color: #2C3659;
+}
+.para{
+   font-size:1.2vw;
+   color: #2C3659;
+}
+.btn-{
+   min-width:300px;
+   background: linear-gradient(46.35deg, #5CA97B 14.48%, #82BB98 85.35%);
+   box-shadow: 0px 15px 15px rgba(130, 187, 152, 0.2);
+   border-radius: 4px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.landing{
+   position: relative;
+   min-height:140vh;
+   overflow: hidden;
+   .circle1{
+      background: #F9F7F1;
+      width: 60vw;
+      height: 60vw;
+      
+      right: -24vw;
+      
+      top: -7vw;
+      z-index: 0;
+   }
+   .circle2{
+      background: rgba(130, 187, 152, 0.47);
+      opacity: 0.2;
+      width: 60vw;
+      height: 60vw;
+      
+      right: -24vw;
+     
+      top: 33vw;
+      z-index: 0;
+    }
+    .circle3{
+      width: 20vw;
+      height: 20vw;
+      background: rgba(130, 187, 152, 0.47);
+      opacity: 0.2;
+      bottom: -15vw;
+      left: 1vw;
+    }
+}
+
+@media(max-width:767px){
+   .title{
+     
+      font-size:30px;
+      
+   }
+   .sub-title{
+      font-size:20px;
+      
+   }
+   .para{
+      font-size:15px;
+      
+   }
+   .customer{
+      margin-top:0;
+      li{
+         margin-bottom: 50px;
+      }
+      
+   }
+}
